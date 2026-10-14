@@ -1,89 +1,231 @@
-<h1 align="center">👋 Hi, I'm Hoàng Sơn (Dev Basic)</h1>
+# 👋 Hi, I'm Hoàng Sơn (Dev Basic)
+
 <p align="center">
-  🎓 Sinh viên CNTT – Trường Đại học Thủ Dầu Một &nbsp;|&nbsp; 💻 Phát triển phần mềm & AI &nbsp;|&nbsp; 🛰️ NASA Space Apps 2026
+  🎓 Sinh viên Công nghệ thông tin – Trường Đại học Thủ Dầu Một<br>
+  💻 Software Development | Artificial Intelligence |<br>
+  🛰️ NASA Space Apps Challenge 2026
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-IoT%20%7C%20AI%20%7C%20Cybersecurity-0B3D91?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Building%20Projects-2EA44F?style=for-the-badge" />
 </p>
 
 ---
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/sonzz.nss) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/nguyenson3144) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://www.tiktok.com/@haison100999)
+## 🌐 Socials
+
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/sonzz.nss)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/nguyenson3144)
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://www.tiktok.com/@haison100999)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/DevSon1009)
 
 ---
 
-## 🚀 Sắp tới: NASA Space Apps Challenge 2026
+## 🚀 Featured Project: Radar-YOLO Smart Intrusion Detection System
+
+**Hệ thống Radar IoT phát hiện người và cảnh báo xâm nhập tích hợp YOLO**
+
+Xây dựng hệ thống an ninh thông minh kết hợp cảm biến radar, vi điều khiển IoT và thị giác máy tính nhằm phát hiện sự hiện diện, nhận diện người và các đối tượng trong khu vực giám sát, đồng thời gửi cảnh báo đến thiết bị người dùng.
+
+### 🎯 Key Features
+
+- 📡 **Radar Presence Detection:** Sử dụng cảm biến LD2410C kết hợp ESP32-S3 để phát hiện sự hiện diện của người.
+- 🤖 **YOLO Object Detection:** Tích hợp mô hình YOLO để nhận diện người và các lớp vật thể được mô hình hỗ trợ từ hình ảnh/video.
+- 🎯 **Object Tracking:** Theo dõi đối tượng qua các khung hình để hỗ trợ giám sát liên tục.
+- 🚨 **Real-time Intrusion Alerts:** Xử lý sự kiện và kích hoạt cảnh báo khi điều kiện xâm nhập được thỏa mãn.
+- 💡 **Hardware Alarm:** Điều khiển relay, đèn cảnh báo và buzzer thông qua bộ điều khiển IoT.
+- ☁️ **Backend & Event Management:** Tiếp nhận dữ liệu thiết bị và sự kiện AI, quản lý trạng thái, lịch sử cảnh báo và logic xử lý.
+- 📱 **Remote Monitoring & Notifications:** Web App/PWA hỗ trợ theo dõi trạng thái, xem lịch sử và nhận thông báo trên thiết bị người dùng theo cơ chế thông báo được triển khai.
+- 🖥️ **Web Admin Dashboard:** Hỗ trợ quản lý thiết bị, theo dõi trạng thái online/offline và giám sát sự kiện.
+- 📲 **Responsive Interface:** Giao diện hướng đến khả năng sử dụng trên cả máy tính và điện thoại.
+
+### 🏗️ System Architecture
+
+```text
+LD2410C Radar
+     │
+     ▼
+ ESP32-S3 ───────────────► Relay / Warning Light / Buzzer
+     │
+     ▼
+  MQTT / HTTPS
+     │
+     ▼
+    Backend ◄──────── AI Service
+     │                     ▲
+     │                 Camera / Video
+     │                     │
+     │                 YOLO + Tracking
+     │
+     ├── Event & Alert Management
+     ├── Device Monitoring
+     ├── Event History
+     │
+     ├── Web Admin Dashboard
+     │
+     └── Web App / PWA
+                │
+                ▼
+       User's Phone / Computer
+       Remote Monitoring & Alerts
+```
+
+### 🛠️ Technologies
+
+![ESP32](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![IoT](https://img.shields.io/badge/IoT-008080?style=flat-square)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-6A5ACD?style=flat-square)
+
+### 🔍 Project Highlights
+
+- Kết hợp hai nguồn dữ liệu: radar phát hiện hiện diện và camera phân tích hình ảnh bằng YOLO.
+- Phân tách firmware, backend, dịch vụ AI và giao diện web để dễ bảo trì, mở rộng.
+- Hướng đến giám sát từ xa, quản lý lịch sử sự kiện và cảnh báo đa thiết bị.
+- Hỗ trợ phát triển thêm các luật cảnh báo theo vùng giám sát và trạng thái hệ thống.
+
+> **Project goal:** Xây dựng hệ thống AIoT hỗ trợ phát hiện xâm nhập, kết hợp cảm biến vật lý, Computer Vision và giám sát từ xa. Hiệu năng và độ chính xác cần được đánh giá bằng thử nghiệm thực tế trước khi công bố các chỉ số định lượng.
+
+🔗 **Repository:** [Radar-YOLO](https://github.com/DevSon1009/Radar-YOLO-)
+
+---
+
+## 🛰️ Upcoming: NASA Space Apps Challenge 2026
 
 ![NASA](https://img.shields.io/badge/NASA-Space%20Apps%202026-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Registered%20%2F%20Preparing-orange?style=for-the-badge)
-![Difficulty](https://img.shields.io/badge/Difficulty-Advanced-8B1A10?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Preparing-orange?style=for-the-badge)
 ![Subject](https://img.shields.io/badge/Subject-Earth%20Science-3B4CC0?style=for-the-badge)
 
-### 🛰️ Challenge: *Dancing with the SARs*
+### Challenge: *Dancing with the SARs*
 
-> Trái Đất luôn "nhảy múa" với những thay đổi bề mặt: mất đất ngập nước, cháy rừng, động đất, hoạt động nông nghiệp, sông băng trôi... Nhiệm vụ là xây dựng **ứng dụng tương tác** dùng dữ liệu radar từ sứ mệnh **NASA-ISRO Synthetic Aperture Radar (NISAR)** để theo dõi và trực quan hóa một hoặc nhiều dạng thay đổi bề mặt trên thế giới.
+Khám phá cách dữ liệu radar vệ tinh hỗ trợ theo dõi những thay đổi trên bề mặt Trái Đất, như biến động đất đai, cháy rừng, vùng ngập nước và hoạt động nông nghiệp.
 
-**🎯 Kế hoạch của mình:**
-- 📡 Tìm hiểu dữ liệu radar **SAR / NISAR** (backscatter, InSAR, phát hiện thay đổi theo thời gian)
-- 🗺️ Xây dựng web app tương tác với **Three.js / JavaScript** để trực quan hóa biến động bề mặt
-- 🤖 Áp dụng **Machine Learning** (kinh nghiệm từ đề tài NCKH) để phát hiện vùng thay đổi
-- ☁️ Triển khai trên **Vercel**
+**My planned approach:**
+
+- 📡 Tìm hiểu dữ liệu SAR và sứ mệnh NASA–ISRO NISAR.
+- 🗺️ Xây dựng web app tương tác để trực quan hóa biến động bề mặt.
+- 🤖 Nghiên cứu khả năng áp dụng Machine Learning vào phát hiện thay đổi.
+- ☁️ Triển khai ứng dụng web trên Vercel.
 
 ---
 
-## 🔬 Nghiên cứu khoa học (NCKH 2025–2026)
+## 🔬 Scientific Research | NCKH 2025–2026
 
-**📌 Xây dựng hệ thống hỗ trợ phân tích và phát hiện mã độc dựa trên đặc trưng tĩnh và kỹ thuật học máy trên nền tảng website**
+### Malware Detection Web System Using Static Analysis and Machine Learning
+
+**Đề tài:** Xây dựng hệ thống hỗ trợ phân tích và phát hiện mã độc dựa trên đặc trưng tĩnh và kỹ thuật học máy trên nền tảng website.
+
 *Trường Đại học Thủ Dầu Một – Khoa Công nghệ Thông tin*
 
-Hệ thống tự động phát hiện mã độc dạng file **PE (Portable Executable)** bằng phân tích đặc trưng tĩnh kết hợp học máy, triển khai thành web app có khả năng **giải thích quyết định phân loại**.
+Phát triển website hỗ trợ phân tích file PE (Portable Executable), kết hợp mô hình Machine Learning với phương pháp giải thích kết quả dự đoán.
 
-| 📊 Chỉ số | Kết quả |
-| --- | --- |
-| Bộ dữ liệu | **EMBER 2018**, 600.000 mẫu có nhãn, 2.381 đặc trưng tĩnh |
-| Mô hình tốt nhất | **XGBoost** (so sánh với LightGBM, Random Forest) |
-| F1-score | **0,9682** |
-| AUC | **0,9938** (tập kiểm thử độc lập 200.000 mẫu) |
-| Độ ổn định | std F1 = **0,00023** qua 8 random seed |
-| Giảm cảnh báo nhầm | FPR **3,59% → 2,05%** (giảm 43%) nhờ Youden's J |
+| Metric | Reported Result |
+|---|---:|
+| Dataset | EMBER 2018 |
+| Labeled samples | 600,000 |
+| Static features | 2,381 |
+| Best model | XGBoost |
+| F1-score | 0.9682 |
+| AUC | 0.9938 |
+| F1 standard deviation | 0.00023 across 8 random seeds |
+| False Positive Rate | 3.59% → 2.05% |
 
-**💡 Ba đóng góp chính:**
-1. 🎚️ Tối ưu ngưỡng phân loại bằng **Youden's J Statistic**
-2. 🧾 **Evidence Aggregation Framework** (5 chỉ số bằng chứng) kết hợp **SHAP** để giải thích từng mẫu
-3. 🧩 **Import Pattern Engine**: phân loại API theo **8 danh mục MITRE ATT&CK** (coverage 45,1% trên mẫu mã độc)
+### Key Contributions
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+1. 🎚️ Tối ưu ngưỡng phân loại bằng Youden's J Statistic.
+2. 🧾 Kết hợp Evidence Aggregation Framework và SHAP để giải thích kết quả dự đoán.
+3. 🧩 Phân loại API theo 8 danh mục MITRE ATT&CK trong Import Pattern Engine.
+
+### Technologies
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square)
 ![LightGBM](https://img.shields.io/badge/LightGBM-2980B9?style=flat-square)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-8A2BE2?style=flat-square)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-E31937?style=flat-square)
-![Anthropic API](https://img.shields.io/badge/Anthropic-API-D97757?style=flat-square)
 
-> ⚠️ Giới hạn đã nêu rõ trong nghiên cứu: phân tích tĩnh còn hạn chế với stager/dropper và fileless malware, hướng mở rộng là kết hợp phân tích động.
-
----
-
-## 🏆 Thành tích & hoạt động
-- 🥇 Đề tài NCKH sinh viên 2025–2026 (dự kiến báo cáo tại hội thảo khoa học cấp trường)
-- 🚀 Tham gia NASA Space Apps Challenge 2026
+> Research metrics are based on the reported experimental results of the project. Static analysis has limitations against some fileless and dynamically loaded threats.
 
 ---
 
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+## 🏆 Achievements & Activities
 
-# 🎯 Lĩnh vực quan tâm:
-![Cybersecurity](https://img.shields.io/badge/-Cybersecurity-red?style=for-the-badge&logo=hackthebox&logoColor=white) ![Malware Analysis](https://img.shields.io/badge/-Malware%20Analysis-darkred?style=for-the-badge) ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-orange?style=for-the-badge&logo=tensorflow&logoColor=white) ![Explainable AI](https://img.shields.io/badge/-Explainable%20AI-8A2BE2?style=for-the-badge) ![Remote Sensing](https://img.shields.io/badge/-Remote%20Sensing-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)
+- 🔬 Thực hiện đề tài nghiên cứu khoa học sinh viên năm học 2025–2026.
+- 🛰️ Chuẩn bị tham gia NASA Space Apps Challenge 2026.
+- 🤖 Phát triển dự án Radar-YOLO tích hợp IoT, Computer Vision và cảnh báo từ xa.
+- 💻 Thực hành phát triển ứng dụng web, backend API và hệ thống nhúng.
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=HoangSonDev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=HoangSonDev&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=HoangSonDev&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+---
+
+## 💻 Tech Stack
+
+### Programming Languages
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![C#](https://img.shields.io/badge/C%23-239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0.svg?style=for-the-badge&logo=python&logoColor=white)
+
+### Web & Backend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-6DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+### AI, Data & IoT
+![YOLO](https://img.shields.io/badge/YOLO-111F68?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Tools & Design
+![Git](https://img.shields.io/badge/Git-F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-black.svg?style=for-the-badge&logo=three.js&logoColor=white)
+
+---
+
+## 🎯 Areas of Interest
+
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-red?style=for-the-badge&logo=hackthebox&logoColor=white)
+![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-darkred?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-orange?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-6A5ACD?style=for-the-badge)
+![IoT](https://img.shields.io/badge/IoT-008080?style=for-the-badge)
+![Explainable AI](https://img.shields.io/badge/Explainable%20AI-8A2BE2?style=for-the-badge)
+![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+![](https://github-readme-stats.shion.dev/api?username=DevSon1009&theme=dark&hide_border=false&include_all_commits=true&count_private=false)
+
+![](https://streak-stats.demolab.com/?user=DevSon1009&theme=dark&hide_border=false)
+
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=DevSon1009&theme=dark&hide_border=false&layout=compact)
 
 ### ✍️ Random Dev Quote
+
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-[![](https://komarev.com/ghpvc/?username=HoangSonDev&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+[![](https://komarev.com/ghpvc/?username=DevSon1009&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Profile README -->
