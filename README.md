@@ -98,7 +98,11 @@ LD2410C Radar
 
 ---
 
-## 🛰️ Upcoming: NASA Space Apps Challenge 2026
+## 🛰️ NASA Space Apps Challenge 2026
+
+<p align="center">
+  <img src="assets/nasa-dancing-with-sars.png" alt="NASA Space Apps Challenge 2026 — Dancing with the SARs" width="100%" />
+</p>
 
 ![NASA](https://img.shields.io/badge/NASA-Space%20Apps%202026-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Preparing-orange?style=for-the-badge)
@@ -106,18 +110,32 @@ LD2410C Radar
 
 ### Challenge: *Dancing with the SARs*
 
-Khám phá cách dữ liệu radar vệ tinh hỗ trợ theo dõi những thay đổi trên bề mặt Trái Đất, như biến động đất đai, cháy rừng, vùng ngập nước và hoạt động nông nghiệp.
+**Sự kiện:** NASA Space Apps Challenge 2026  
+**Chủ đề:** Earth Science (Khoa học Trái Đất)  
+**Độ khó hiển thị:** Intermediate / Advanced
 
-**My planned approach:**
+Bề mặt Trái Đất luôn thay đổi bởi các quá trình tự nhiên và hoạt động của con người. Thử thách *Dancing with the SARs* hướng đến việc xây dựng một ứng dụng tương tác sử dụng dữ liệu viễn thám radar từ sứ mệnh NASA–ISRO Synthetic Aperture Radar (NISAR), nhằm theo dõi và trực quan hóa một hoặc nhiều dạng biến đổi bề mặt tại các địa điểm trên thế giới.
+
+**Hướng tiếp cận dự kiến:**
 
 - 📡 Tìm hiểu dữ liệu SAR và sứ mệnh NASA–ISRO NISAR.
-- 🗺️ Xây dựng web app tương tác để trực quan hóa biến động bề mặt.
-- 🤖 Nghiên cứu khả năng áp dụng Machine Learning vào phát hiện thay đổi.
-- ☁️ Triển khai ứng dụng web trên Vercel.
+- 🗺️ Xây dựng web app tương tác để hiển thị dữ liệu và trực quan hóa biến đổi bề mặt.
+- 🤖 Nghiên cứu khả năng áp dụng Machine Learning để hỗ trợ phát hiện thay đổi.
+- 🌍 Tập trung vào một dạng biến đổi phù hợp, chẳng hạn vùng ngập nước, thay đổi thảm thực vật hoặc biến động bề mặt.
+- ☁️ Triển khai ứng dụng web để người dùng có thể khám phá kết quả trực quan.
+
+> **Project status:** Đang ở giai đoạn chuẩn bị và nghiên cứu hướng triển khai; các tính năng trên là kế hoạch dự kiến, không phải kết quả đã hoàn thành.
 
 ---
 
 ## 🔬 Scientific Research | NCKH 2025–2026
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Research%20Score-8.8%2F10-2E8B57?style=for-the-badge" alt="Research score 8.8 out of 10" />
+  <img src="https://img.shields.io/badge/Classification-%C4%90%E1%BA%A1t%20lo%E1%BA%A1i%20T%E1%BB%91t-0B3D91?style=for-the-badge" alt="Research classification: Good" />
+</p>
+
+**Thành tích:** Đạt **8.8/10 – xếp loại Tốt** với đề tài nghiên cứu khoa học sinh viên năm học 2025–2026 tại Trường Đại học Thủ Dầu Một.
 
 ### Malware Detection Web System Using Static Analysis and Machine Learning
 
@@ -160,7 +178,7 @@ Phát triển website hỗ trợ phân tích file PE (Portable Executable), kế
 
 ## 🏆 Achievements & Activities
 
-- 🔬 Thực hiện đề tài nghiên cứu khoa học sinh viên năm học 2025–2026.
+- 🔬 Đề tài nghiên cứu khoa học sinh viên năm học 2025–2026 đạt **8.8/10 – xếp loại Tốt**.
 - 🛰️ Chuẩn bị tham gia NASA Space Apps Challenge 2026.
 - 🤖 Phát triển dự án Radar-YOLO tích hợp IoT, Computer Vision và cảnh báo từ xa.
 - 💻 Thực hành phát triển ứng dụng web, backend API và hệ thống nhúng.
